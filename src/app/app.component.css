@@ -1,0 +1,51 @@
+:host{
+  --content-padding: 10px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  height: 60px;
+  padding: var(--content-padding);
+  box-shadow: 0px 3px 10px rgb(234, 196, 209);
+  border-radius: 20px;
+}
+
+header:hover{
+  box-shadow: 0px 5px 15px rgb(234, 196, 209);
+}
+
+.content{
+  padding: var(--content-padding);
+}
+
+.brand-logo{
+  width: 50px;
+  margin-left: 7px;
+}
+
+header h1{
+  margin-left: 10px;
+  font-size: 1.5rem;
+  color: rgb(24, 151, 77);
+}
+
+button{
+  padding: 10px 20px;
+  background-color: rgb(238, 116, 159);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  float: inline-end;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+button:hover{
+  background-color: rgb(212, 69, 117);
+}
+
+
+

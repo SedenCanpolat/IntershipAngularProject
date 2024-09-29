@@ -1,0 +1,42 @@
+p-sidebar h3{
+  padding: 16px;
+  background-color: rgb(234, 99, 146); 
+  color: white; 
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+p-sidebar ul li{
+  padding: 10px 16px;
+  border-bottom: 1px solid rgb(251, 186, 209); 
+}
+
+p-sidebar ul li a{
+  text-decoration: none;
+  color: rgb(46, 194, 107); 
+  display: block;
+  transition: background-color 0.3s;
+  font-size: 1.1rem; 
+  cursor: pointer; 
+  text-align: center;
+}
+
+p-sidebar ul li a:hover{
+  background-color: #e1f6e3;
+}
+
+.p-button-text{
+  margin-top: 20px;
+  z-index: 10001; 
+  background-color: transparent;
+  color: rgb(230, 62, 118);
+  border: none;
+  font-size: 1.2rem; 
+  cursor: pointer;
+  margin-left: 80px;
+}
+
+.p-button-text:hover{
+  color: rgb(228, 109, 151);
+}
+

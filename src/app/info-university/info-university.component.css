@@ -1,0 +1,13 @@
+.info{
+    text-align: center;
+    position: relative;
+    overflow: hidden; 
+}
+
+.info p {
+    font-size: 17px;
+    color: rgb(192, 53, 99);
+    padding: 50px;
+    font-style: italic;
+}
+

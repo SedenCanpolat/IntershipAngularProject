@@ -1,0 +1,25 @@
+.results{  
+    margin: 20px;
+  }
+  
+.headers h1{
+    font-size: 1.5rem;
+    color: rgb(24, 151, 77);
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.headers h2{
+    font-size: 1.2rem;
+    color: rgb(44, 175, 99);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.headers{
+    text-align: center;
+    position: relative;
+    overflow: hidden; 
+  }
+  
+
